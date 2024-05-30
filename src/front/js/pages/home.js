@@ -8,6 +8,7 @@ export const Home = () => {
 	return (
 		<div className="text-center mt-5">
 			<h1>Hola Iker!!</h1>
+
 			
 			<div className="alert alert-info">
 				{store.message || "Loading message from the backend (make sure your python backend is running)..."}

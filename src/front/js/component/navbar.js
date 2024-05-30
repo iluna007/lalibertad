@@ -6,11 +6,14 @@ export const Navbar = () => {
   return (
     <nav className="navbar bg-primary" data-bs-theme="dark">
       <div className="container">
-        <Link to="https://www.geografia.fcs.ucr.ac.cr/index.php/es/">
-		  <img src={logo_EG} />
-        </Link>
+        <a
+          href="https://www.geografia.fcs.ucr.ac.cr/index.php/es/"
+          
+        >
+          <img src={logo_EG} />
+        </a>
         <Link to="/">
-          <span className="btn btn-outline-light">Inicio</span>
+          <span className="btn btn-outline-dark">Inicio</span>
         </Link>
         {/* <div className="ml-auto">
 					<Link to="/demo">
@@ -23,10 +26,17 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="ml-auto">
-          <Link to="/raster">
+          <Link to="/pointscloud">
             <button className="btn btn-outline-light">Nube de Puntos</button>
           </Link>
         </div>
+
+        <div className="ml-auto">
+          <Link to="/vr ">
+            <button className="btn btn-outline-light">Realidad virtual</button>
+          </Link>
+        </div>
+
       </div>
     </nav>
   );
