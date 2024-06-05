@@ -7,7 +7,7 @@ export const VR = () => {
 
   return (
     <div className="text-center mt-5">
-      <h1>VR</h1>
+      <h1></h1>
     </div>
   );
 };

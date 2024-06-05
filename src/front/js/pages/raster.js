@@ -10,7 +10,7 @@ export const Raster = () => {
 
   return (
     <div className="text-center mt-5">
-      <h1>Raster</h1>
+      <h1></h1>
       <Map_1 />
       
     </div>
