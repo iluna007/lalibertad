@@ -17,6 +17,9 @@ const Map_1 = () => {
     var esri = L.tileLayer(
       "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
     );
+    var topo = L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
+    );
 
     var rgb = L.tileLayer(
       "https://api.ellipsis-drive.com/v3/path/e46e4267-b95b-427b-bac0-b76afd727de4/raster/timestamp/0351670b-7e4d-4c7f-a6a8-488993bc7287/tile/{z}/{x}/{y}?style=7683c9d9%2d2dfc%2d4ac2%2d8dd0%2db9ee2018cea3&token=epat_R2r4Va1kMPQXhrddgnckqnfkaWZDzsxarl8vPVwYmfuSFpLn6AkuTu2y9bLJsqoa",
@@ -26,7 +29,24 @@ const Map_1 = () => {
         maxZoom: 23,
       }
     );
-    
+
+    var marker1 = L.marker([9.889718, -84.037271])
+      .addTo(map)
+      .bindPopup("Entrada A del parque");
+    var marker2 = L.marker([9.889955333454145, -84.03392571430172])
+      .addTo(map)
+      .bindPopup("Entrada B del parque");
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+      popup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(map);
+    }
+
+    map.on("click", onMapClick);
 
     basemap.addTo(map);
     rgb.addTo(map);
@@ -44,11 +64,14 @@ const Map_1 = () => {
     var baselayers = {
       "OSM basemap": basemap,
       "ESRI Imagery": esri,
+      "ESRI Topo": topo,
     };
 
     var overlays = {
       //add any overlays here
       Raster: rgb,
+      Acceso_A: marker1,
+      Acceso_B: marker2,
       // 'CIR': cir,
       // 'Thermal': thermal
     };

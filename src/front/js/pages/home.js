@@ -7,7 +7,7 @@ export const Home = () => {
 
 	return (
 		<div className="text-center mt-5">
-			<h1>Hola!</h1>
+			<h1>Bienvenidos al Parque de La Libertad virtual</h1>
 
 			
 			<div className="alert alert-info">

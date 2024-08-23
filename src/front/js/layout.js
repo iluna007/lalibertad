@@ -9,7 +9,7 @@ import { Single } from "./pages/single";
 import { Raster } from "./pages/raster";
 import { PointsCloud } from "./pages/pointscloud";
 import { Model } from "./pages/model";
-import { VR } from "./pages/vr";
+import { VR } from "./pages/proceso";
 
 
 import injectContext from "./store/appContext";
@@ -36,7 +36,7 @@ const Layout = () => {
                         <Route element={<Raster />} path="/raster" />
                         <Route element={<PointsCloud />} path="/pointscloud" />
                         <Route element={<Model />} path="/model" />
-                        <Route element={<VR />} path="/vr" />
+                        <Route element={<VR />} path="/proceso" />
 
 
                         <Route element={<Single />} path="/single/:theid" />
