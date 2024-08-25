@@ -8,7 +8,7 @@ export const VR = () => {
   return (
     <div className="text-center mt-5" style={{ height: "100vh" }}>
       <h1>Proceso</h1>
-      <div className="container text-center">
+      <div className="container text-center">git
         <div className="row">
           <div className="col">
             <h1>Cloud Compare</h1>
