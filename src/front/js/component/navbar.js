@@ -94,7 +94,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/proceso">
-                Proceso
+                Flujos de Trabajo
               </Link>
             </li>
           </ul>
