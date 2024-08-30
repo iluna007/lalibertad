@@ -8,7 +8,7 @@ export const VR = () => {
   return (
     <div className="text-center mt-5" style={{ height: "100vh" }}>
       <h1>Flujos de trabajo</h1>
-      
+
       <div className="container text-center">
         <div className="row">
           <h1>CloudCompare</h1>
@@ -441,9 +441,7 @@ export const VR = () => {
         </div>
 
         <div className="col">
-          <h1>
-            Preparación de modelo para Impresión 3D
-          </h1>
+          <h1>Preparación de modelo para Impresión 3D</h1>
           <div className="accordion accordion-flush" id="accordionFlushExample">
             <div className="accordion-item">
               <h2 className="accordion-header">
@@ -658,7 +656,7 @@ export const VR = () => {
                 <div className="accordion-body">
                   <div className="container text-center">
                     <div className="row">
-                      <div className="col"></div> 
+                      <div className="col"></div>
                       <div className="col-8 text-justify">
                         <p>
                           Una vez que todas las subdivisiones estén listas,
@@ -1070,6 +1068,11 @@ export const VR = () => {
                             software GIS como QGIS o ArcGIS para asegurarte de
                             que la proyección esté correcta.
                           </p>
+                          <img
+                            src="src/front/img/ellipsis/ellipsis1.png"
+                            className="img-fluid"
+                            alt="text"
+                          />
                         </div>
                         <div className="col"></div>
                       </div>
@@ -1665,7 +1668,7 @@ export const VR = () => {
                         <div className="col-8 text-justify">
                           <p>
                             Antes de subir tu modelo 3D a Speckle, asegúrate de
-                            que tienes instalado el **Speckle Connector** para
+                            que tienes instalado el Speckle Connector para
                             Rhino. Puedes descargarlo desde la [página oficial
                             de Speckle](https://speckle.systems/). Sigue las
                             instrucciones de instalación para agregar el
@@ -1703,7 +1706,7 @@ export const VR = () => {
                         <div className="col"></div>
                         <div className="col-8 text-justify">
                           <p>
-                            Abre Rhino y ve a la pestaña **Speckle**. Si es la
+                            Abre Rhino y ve a la pestaña Speckle. Si es la
                             primera vez que usas el conector, deberás iniciar
                             sesión con tu cuenta de Speckle. Luego, selecciona o
                             crea un nuevo Stream en la plataforma de Speckle,
@@ -1742,9 +1745,9 @@ export const VR = () => {
                         <div className="col-8 text-justify">
                           <p>
                             Selecciona los objetos del modelo 3D que deseas
-                            enviar a Speckle. Haz clic en el botón **Send**
-                            dentro de la pestaña Speckle en Rhino. Esto subirá
-                            el modelo al Stream seleccionado en la plataforma de
+                            enviar a Speckle. Haz clic en el botón Send dentro
+                            de la pestaña Speckle en Rhino. Esto subirá el
+                            modelo al Stream seleccionado en la plataforma de
                             Speckle, creando una nueva versión del modelo.
                           </p>
                         </div>
@@ -1783,10 +1786,9 @@ export const VR = () => {
                             Una vez que el modelo esté subido a Speckle, accede
                             a la plataforma web de Speckle y selecciona el
                             Stream y la versión del modelo que acabas de enviar.
-                            Busca la opción **Share** o **Embed** y copia el
-                            código del `iframe` o el enlace público que se
-                            generará para integrar el modelo 3D en tu página
-                            web.
+                            Busca la opción Share o Embed y copia el código del
+                            `iframe` o el enlace público que se generará para
+                            integrar el modelo 3D en tu página web.
                           </p>
                         </div>
                         <div className="col"></div>
