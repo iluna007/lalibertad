@@ -44,10 +44,48 @@ export const Navbar = () => {
                   Modelo 3D
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/proceso">
-                  Proceso
-                </Link>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Flujos de trabajo
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="/flujo_cc">
+                      Cloud Compare
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/flujo_rr">
+                      Rhino + RhinoLands
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/flujo_imprimir3d">
+                      Impresión 3D
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/flujo_web_leaflet">
+                      Web + Leaflet
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/flujo_web_ellipsis">
+                      Web + Ellipsis
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/flujo_web_speckle">
+                      Web + Speckle
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
