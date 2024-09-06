@@ -34,12 +34,25 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-justify">
+                      <div className="col-8 text-center">
                         <p>
                           Abre CloudCompare y carga la nube de puntos en formato
                           `.las` o `.laz`. Ve a `Archivo > Abrir`, selecciona el
                           archivo y asegúrate de que la nube de puntos se
                           visualiza correctamente.
+                          <div className="embed-responsive embed-responsive-4by3">
+                            <iframe
+                              className="embed-responsive-item"
+                              width="560"
+                              height="315"
+                              src="https://www.youtube.com/embed/QMm10_amcI0?si=lq5_Jo3z-ThtoYMB"
+                              title="YouTube video player"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              referrerpolicy="strict-origin-when-cross-origin"
+                              allowfullscreen
+                            ></iframe>
+                          </div>
                         </p>
                       </div>
                       <div className="col"></div>
@@ -71,7 +84,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-justify">
+                      <div className="col-8 text-center">
                         <p>
                           Selecciona la nube de puntos y ve a `Plugins > CSF
                           Filter`. Configura los parámetros, selecciona `Relief`
@@ -80,6 +93,16 @@ export const Flujo_cc = () => {
                           puntos: suelo (`ground points`) y no suelo
                           (`off-ground points`).
                         </p>
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/Ep0tkdeAsFA?si=Q6xawq6-ev3Fmnie"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                        ></iframe>
                       </div>
                       <div className="col"></div>
                     </div>
@@ -110,7 +133,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-justify">
+                      <div className="col-8 text-centered">
                         <p>
                           Selecciona la nube de puntos `off-ground points` y
                           utiliza la herramienta de segmentación (`Segment
@@ -119,6 +142,16 @@ export const Flujo_cc = () => {
                           de puntos del suelo (`ground points`) usando la
                           herramienta de `Merge`.
                         </p>
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/xa7nA0BntDU?si=3kA9Q8Wvlbbc53xt"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                        ></iframe>
                       </div>
                       <div className="col"></div>
                     </div>
@@ -149,50 +182,23 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-justify">
+                      <div className="col-8 text-centered">
                         <p>
                           Selecciona la nube de puntos combinada y aplica un
                           submuestreo (`Edit > Subsample`) para reducir la
                           densidad de la nube de puntos, ajustando la cantidad
                           de puntos según las necesidades del proyecto.
                         </p>
-                      </div>
-                      <div className="col"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="accordion-item">
-              <h2 className="accordion-header">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapse31"
-                  aria-expanded="false"
-                  aria-controls="flush-collapse31"
-                >
-                  Paso 5: Exportar a Rhino
-                </button>
-              </h2>
-              <div
-                id="flush-collapse31"
-                className="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  <div className="container text-center">
-                    <div className="row">
-                      <div className="col"></div>
-                      <div className="col-8 text-justify">
-                        <p>
-                          Guarda la nube de puntos simplificada en formato
-                          `.obj` o `.ply`. Luego, importa este archivo en Rhino
-                          (`Archivo > Importar`) y verifica la escala y
-                          orientación para comenzar a trabajar en el modelo 3D.
-                        </p>
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/ydgOtpGB5Ng?si=6ZUGO8g-EB8Wtsnk"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                        ></iframe>
                       </div>
                       <div className="col"></div>
                     </div>
@@ -211,7 +217,7 @@ export const Flujo_cc = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapse32"
                 >
-                  Paso 6: Generar un Mesh para Rhino
+                  Paso 5: Generar un Mesh para Rhino
                 </button>
               </h2>
               <div
@@ -223,7 +229,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-justify">
+                      <div className="col-8 text-centered">
                         <p>
                           Selecciona la nube de puntos en CloudCompare y ve a
                           `Edit > Mesh > Delaunay 2.5D (Best fitting plane)`
@@ -232,6 +238,16 @@ export const Flujo_cc = () => {
                           Luego, importa el mesh en Rhino y verifica su
                           integridad para continuar con el trabajo de modelado.
                         </p>
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/dY8CADiensI?si=SL07nYGWkYbpedC6"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                        ></iframe>
                       </div>
                       <div className="col"></div>
                     </div>
@@ -242,8 +258,6 @@ export const Flujo_cc = () => {
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };

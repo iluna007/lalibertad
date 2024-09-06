@@ -9,3 +9,26 @@
 .text-justify {
     text-align: justify;
   }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* El contenido principal debe expandirse para ocupar el espacio disponible */
+  .main-content {
+    flex: 1;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+  }
