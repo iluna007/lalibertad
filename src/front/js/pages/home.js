@@ -7,6 +7,18 @@ export const Home = () => {
 
   return (
     <div className="text-center mt-5">
+      <div className="p-5 mb-4 bg-body-tertiary rounded-3">
+        <div
+          className="bg-image"
+          style={{
+            backgroundImage: `url('/src/front/img/diagrama.jpg')`,
+            height: "100vh",
+            backgroundSize: "cover",
+            backgroundPosition: "center"
+          }}
+        ></div>
+      </div>
+
       <h1>Introducción</h1>
 
       <div className="container text-center">
