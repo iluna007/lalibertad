@@ -11,7 +11,7 @@ export const Home = () => {
         <div
           className="bg-image"
           style={{
-            backgroundImage: `url('/src/front/img/diagrama.jpg')`,
+            backgroundImage: `url('/diagrama1.png')`,
             height: "100vh",
             backgroundSize: "cover",
             backgroundPosition: "center"
