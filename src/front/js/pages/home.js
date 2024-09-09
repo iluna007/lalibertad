@@ -7,18 +7,6 @@ export const Home = () => {
 
   return (
     <div className="text-center mt-5">
-      <div className="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div
-          className="bg-image"
-          style={{
-            backgroundImage: `url('/diagrama1.png')`,
-            height: "100vh",
-            backgroundSize: "cover",
-            backgroundPosition: "center"
-          }}
-        ></div>
-      </div>
-
       <h1>Introducción</h1>
 
       <div className="container text-center">
@@ -95,8 +83,24 @@ export const Home = () => {
               puedan contribuir a su desarrollo continuo, aportando nuevas ideas
               y mejoras al código y a la construcción del mismo.
             </p>
+
+            
           </div>
+          
           <div className="col"></div>
+          <div className="p-5 mb-4 bg-body-tertiary rounded-3">
+              <div className="image-container">
+                <img
+                  src="https://i.ibb.co/q92CsWF/diagrama.jpg"
+                  alt="Casa"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
+                />
+  
+              </div>
+            </div>
         </div>
       </div>
     </div>

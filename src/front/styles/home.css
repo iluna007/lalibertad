@@ -32,3 +32,10 @@
     padding: 1rem;
     text-align: center;
   }
+
+
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+}
