@@ -31,7 +31,7 @@ export const Flujo_cc = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <div className="container text-center">
+                  <div className="container text-justify">
                     <div className="row">
                       <div className="col"></div>
                       <div className="col-8 text-center">

@@ -33,7 +33,7 @@ export const Flujo_imprimir3d = () => {
                 <div className="container text-center">
                   <div className="row">
                     <div className="col"></div>
-                    <div className="col-8 text-justify">
+                    <div className="col-8 text-center">
                       <p>
                         Definir el Tamaño de los Cuadrantes: Decide el tamaño de
                         cada cuadrante en el que deseas dividir el terreno. Esto
@@ -95,7 +95,7 @@ export const Flujo_imprimir3d = () => {
                 <div className="container text-center">
                   <div className="row">
                     <div className="col"></div>
-                    <div className="col-8 text-justify">
+                    <div className="col-8 text-center">
                       <p>
                         Selecciona las lineas creadas y extruye en dirección del
                         eje Z. Luego, selecciona las lineas y utiliza el comando
@@ -171,7 +171,7 @@ export const Flujo_imprimir3d = () => {
                 <div className="container text-center">
                   <div className="row">
                     <div className="col"></div>
-                    <div className="col-8 text-justify">
+                    <div className="col-8 text-center">
                       <p>
                         Para agilizar este proceso y automatizar la subdivisión,
                         puedes utilizar Grasshopper, un plugin de Rhino que
@@ -181,7 +181,36 @@ export const Flujo_imprimir3d = () => {
                         automáticamente las subdivisiones y las envolventes
                         ajustadas.
                       </p>
-                      
+                      <p>
+                        Puedes descargar el archivo de Grasshopper en el
+                        siguiente enlance:
+                        <br />
+                        <a
+                          href="https://drive.google.com/drive/folders/1WCLHMwIUhuJ0E1LJBk5Kvhhoi0uw7ejY?usp=sharing"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Descargar archivo de Grasshopper
+                        </a>
+                        <br />
+                        <a
+                          href="https://drive.google.com/drive/folders/1WCLHMwIUhuJ0E1LJBk5Kvhhoi0uw7ejY?usp=sharing"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Descargar archivo de Rhino
+                        </a>
+                      </p>
+                      <div className="image-container">
+                        <img
+                          src="https://i.ibb.co/gv43NNM/gh1.jpg"
+                          alt="Casa"
+                          style={{
+                            width: "100%",
+                            height: "auto",
+                          }}
+                        />
+                      </div>
                     </div>
                     <div className="col"></div>
                   </div>

@@ -62,7 +62,7 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <a className="dropdown-item" href="/flujo_rr">
-                      Rhino + RhinoLands
+                      RH + LANDS + GH
                     </a>
                   </li>
                   <li>

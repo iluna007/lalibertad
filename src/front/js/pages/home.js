@@ -14,10 +14,9 @@ export const Home = () => {
           <div className="col"></div>
           <div className="col-8 text-justify">
             <p>
-              El parque, como un espacio de integración social que desempeña un
-              rol esencial en el bienestar de las comunidades aledañas. En un
-              esfuerzo por explorar y potenciar este impacto, hemos desarrollado
-              una plataforma web que presenta los resultados de un detallado
+              En un esfuerzo por explorar y potenciar el impacto que puede tener
+              el parque en las comunidades aledañas, hemos desarrollado una
+              plataforma web que presenta los resultados de un detallado
               levantamiento de nube de puntos del parque, utilizando tecnologías
               avanzadas de visualización y modelado en 3D. Este proyecto no solo
               se centra en la representación visual, sino en la creación de un
@@ -83,24 +82,21 @@ export const Home = () => {
               puedan contribuir a su desarrollo continuo, aportando nuevas ideas
               y mejoras al código y a la construcción del mismo.
             </p>
-
-            
           </div>
-          
+
           <div className="col"></div>
           <div className="p-5 mb-4 bg-body-tertiary rounded-3">
-              <div className="image-container">
-                <img
-                  src="https://i.ibb.co/q92CsWF/diagrama.jpg"
-                  alt="Casa"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
-                />
-  
-              </div>
+            <div className="image-container">
+              <img
+                src="https://i.ibb.co/q92CsWF/diagrama.jpg"
+                alt="Casa"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+              />
             </div>
+          </div>
         </div>
       </div>
     </div>

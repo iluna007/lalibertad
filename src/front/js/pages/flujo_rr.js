@@ -7,7 +7,7 @@ export const Flujo_rr = () => {
 
   return (
     <div className="text-center mt-5" style={{ height: "100vh" }}>
-      <h1>RHINOCEROS + RHINOLANDS</h1>
+      <h1>RHINOCEROS + RHINOLANDS + GRASSHOPPER</h1>
 
       <div className="container text-center">
         <div className="col">
