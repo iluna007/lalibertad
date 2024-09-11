@@ -52,6 +52,16 @@ export const Flujo_web_leaflet = () => {
                           <code>npm install react-leaflet</code>.
                         </li>
                       </ul>
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/wVnimcQsuwk?si=jMT-H_W2puSzfoWj"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="col"></div>
                   </div>

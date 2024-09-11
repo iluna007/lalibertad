@@ -33,38 +33,47 @@ export const Flujo_imprimir3d = () => {
                 <div className="container text-center">
                   <div className="row">
                     <div className="col"></div>
-                    <div className="col-8 text-center">
+                    <div className="col-8 text-justify">
                       <p>
                         Definir el Tamaño de los Cuadrantes: Decide el tamaño de
                         cada cuadrante en el que deseas dividir el terreno. Esto
                         dependerá de la escala de impresión y el tamaño total
-                        del terreno. Dibujar la Cuadrícula: Usa el comando Array
-                        para crear una cuadrícula sobre el terreno. Primero,
-                        dibuja una línea que representará el ancho de la
-                        cuadrícula. Luego, usa el comando Array para replicar
-                        esta línea a lo largo de la longitud del terreno en la
-                        dirección deseada. Repite el proceso para crear una
-                        cuadrícula completa en la dirección perpendicular.
-                        Comando Array: Línea de Cuadrícula: Dibuja una línea
-                        horizontal (o vertical) que será la base de la
-                        cuadrícula. Array en Dirección X: Usa Array para
-                        replicar la línea horizontal a lo largo del terreno.
+                        del terreno.{" "}
+                      </p>
+                      <p>
+                        Dibujar la Cuadrícula: Usa el comando Array para crear
+                        una cuadrícula sobre el terreno. Primero, dibuja una
+                        línea que representará el ancho de la cuadrícula.{" "}
+                      </p>
+                      <p>
+                        Luego, usa el comando Array para replicar esta línea a
+                        lo largo de la longitud del terreno en la dirección
+                        deseada. Repite el proceso para crear una cuadrícula
+                        completa en la dirección perpendicular. Comando Array:
+                        Línea de Cuadrícula: Dibuja una línea horizontal (o
+                        vertical) que será la base de la cuadrícula. Array en
+                        Dirección X: Usa Array para replicar la línea horizontal
+                        a lo largo del terreno.
+                      </p>
+
+                      <p>
                         Especifica el número de copias y la distancia entre
                         ellas. Array en Dirección Y: Dibuja una línea vertical y
                         usa Array para replicarla a lo largo del terreno en la
                         dirección perpendicular a la primera línea.
-                        <br />
-                        <iframe
-                          width="560"
-                          height="315"
-                          src="https://www.youtube.com/embed/Yt_DJfkOIRE?si=ZXhVlLUizECB7R7x"
-                          title="YouTube video player"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          referrerpolicy="strict-origin-when-cross-origin"
-                          allowfullscreen
-                        ></iframe>
                       </p>
+
+                      <br />
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/Yt_DJfkOIRE?si=ZXhVlLUizECB7R7x"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="col"></div>
                   </div>
@@ -95,7 +104,7 @@ export const Flujo_imprimir3d = () => {
                 <div className="container text-center">
                   <div className="row">
                     <div className="col"></div>
-                    <div className="col-8 text-center">
+                    <div className="col-8 text-justify">
                       <p>
                         Selecciona las lineas creadas y extruye en dirección del
                         eje Z. Luego, selecciona las lineas y utiliza el comando
@@ -171,7 +180,7 @@ export const Flujo_imprimir3d = () => {
                 <div className="container text-center">
                   <div className="row">
                     <div className="col"></div>
-                    <div className="col-8 text-center">
+                    <div className="col-8 text-justify">
                       <p>
                         Para agilizar este proceso y automatizar la subdivisión,
                         puedes utilizar Grasshopper, un plugin de Rhino que
@@ -305,6 +314,94 @@ export const Flujo_imprimir3d = () => {
                         los parámetros de impresión según sea necesario y
                         prepara los archivos para el proceso de impresión 3D.
                       </p>
+                      <p>
+                        Para esta prueba se utilizó una impresora Ultimaker 3
+                        Extended y se tardo 4hrs con 50 minutos en imprimir.
+                        Utilizando 121 gramos de filamento de 1.75mm.
+                      </p>
+                      <p>
+                        La recomendación del laboratio de fabricación digital de
+                        la EAQ es que, en caso de proceder con los demas 46
+                        cuadrantes bajo el mismo protocol, se realice la compra
+                        de los filamentos (15 unidades de 1Kg) directamente con
+                        su{" "}
+                        <a
+                          href="https://dgtalic.com/categoria-producto/filamentos-todos/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          proveedor
+                        </a>{" "}
+                        de confianza.
+                      </p>
+
+                      <div class="container text-center">
+                        <div class="row">
+                          <div class="col">
+                            <div className="image-container">
+                              <img
+                                src="https://i.ibb.co/djWkkgQ/g1.gif"
+                                alt="impresión3d"
+                                style={{
+                                  width: "100%",
+                                  height: "auto",
+                                }}
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div className="image-container">
+                              <img
+                                src="https://i.ibb.co/bJyfmCt/g2.gif"
+                                alt="impresión3d"
+                                style={{
+                                  width: "100%",
+                                  height: "auto",
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <br></br>
+                        <div class="row">
+                          <div class="col">
+                            <div className="image-container">
+                              <img
+                                src="https://i.ibb.co/QJftDnb/proceso-2.jpg"
+                                alt="impresión3d"
+                                style={{
+                                  width: "100%",
+                                  height: "auto",
+                                }}
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div className="image-container">
+                              <img
+                                src="https://i.ibb.co/hCx3t9B/proceso-4.jpg"
+                                alt="impresión3d"
+                                style={{
+                                  width: "100%",
+                                  height: "auto",
+                                }}
+                              />
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div className="image-container">
+                              <img
+                                src="https://i.ibb.co/1JLpJ4d/proceso-3.jpg"
+                                alt="impresión3d"
+                                style={{
+                                  width: "100%",
+                                  height: "auto",
+                                }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div className="col"></div>
                   </div>

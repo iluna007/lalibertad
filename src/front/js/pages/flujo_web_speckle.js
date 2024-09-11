@@ -41,19 +41,17 @@ export const Flujo_web_speckle = () => {
                         Speckle](https://speckle.systems/). Sigue las
                         instrucciones de instalación para agregar el conector a
                         Rhino.
-
-                        <iframe
-                          width="560"
-                          height="315"
-                          src="https://www.youtube.com/embed/v56nxXBbtfI?si=1zJDu0EkCd18HJO6"
-                          title="YouTube video player"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          referrerpolicy="strict-origin-when-cross-origin"
-                          allowfullscreen
-                        ></iframe>
-                        
                       </p>
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/v56nxXBbtfI?si=1zJDu0EkCd18HJO6"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="col"></div>
                   </div>
@@ -91,9 +89,6 @@ export const Flujo_web_speckle = () => {
                         cuenta de Speckle. Luego, selecciona o crea un nuevo
                         Stream en la plataforma de Speckle, donde se almacenará
                         el modelo 3D.
-
-                        
-
                       </p>
                     </div>
                     <div className="col"></div>

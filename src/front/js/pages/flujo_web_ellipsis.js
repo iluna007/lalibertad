@@ -21,8 +21,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse8"
               >
-                Imagen Ráster  - Paso 1: Preparación de la
-                Imagen Ráster
+                Imagen Ráster - Paso 1: Preparación de la Imagen Ráster
               </button>
             </h2>
             <div
@@ -37,21 +36,26 @@ export const Flujo_web_ellipsis = () => {
                     <div className="col-8 text-justify">
                       <p>
                         Asegúrate de que la imagen ráster que deseas integrar
-                        esté en un formato compatible, como{" "}
-                        <strong>.tif</strong> (GeoTIFF) o <strong>.jpg</strong>.
-                        Verifica las coordenadas geográficas y la proyección de
-                        la imagen ráster. Asegúrate de que la imagen tenga la
-                        información geoespacial correcta, ya que Ellipsis Drive
-                        requiere que los datos estén georreferenciados. Si es
-                        necesario, reproyecta la imagen ráster utilizando
-                        software GIS como QGIS o ArcGIS para asegurarte de que
-                        la proyección esté correcta.
+                        esté en un formato compatible. Verifica las coordenadas
+                        geográficas y la proyección de la imagen ráster.
+                        Asegúrate de que la imagen tenga la información
+                        geoespacial correcta, ya que Ellipsis Drive requiere que
+                        los datos estén georreferenciados. Si es necesario,
+                        reproyecta la imagen ráster utilizando software GIS como
+                        QGIS o ArcGIS para asegurarte de que la proyección esté
+                        correcta.
                       </p>
-                      <img
-                        src="../../img/ellipsis/ellipsis1.png"
-                        className="img-thumbnail"
-                        alt="text"
-                      />
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/3lE7MJRB5rE?si=D_FMPuypIO8MIUOj"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                      s
                     </div>
                     <div className="col"></div>
                   </div>
@@ -70,8 +74,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse9"
               >
-                Imagen Ráster  - Paso 2: Crear una Cuenta en
-                Ellipsis Drive
+                Imagen Ráster - Paso 2: Crear una Cuenta en Ellipsis Drive
               </button>
             </h2>
             <div
@@ -110,8 +113,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse10"
               >
-                Imagen Ráster  - Paso 3: Crear un Nuevo
-                Proyecto
+                Imagen Ráster - Paso 3: Crear un Nuevo Proyecto
               </button>
             </h2>
             <div
@@ -149,7 +151,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse11"
               >
-                Imagen Ráster  - Paso 4: Subir la Imagen Ráster
+                Imagen Ráster - Paso 4: Subir la Imagen Ráster
               </button>
             </h2>
             <div
@@ -191,8 +193,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse12"
               >
-                Imagen Ráster  - Paso 5: Verificación de la
-                Imagen Ráster
+                Imagen Ráster - Paso 5: Verificación de la Imagen Ráster
               </button>
             </h2>
             <div
@@ -207,14 +208,14 @@ export const Flujo_web_ellipsis = () => {
                     <div className="col-8 text-justify">
                       <p>
                         Una vez completada la carga, navega hasta el archivo de
-                        la imagen ráster dentro del proyecto .
-                        Verifica que la imagen se muestre correctamente en el
-                        visor de mapas de Ellipsis Drive, comprobando que esté
-                        georreferenciada y proyectada de manera adecuada. Si es
-                        necesario, ajusta la visualización utilizando las
-                        herramientas que Ellipsis Drive proporciona para
-                        modificar parámetros como el brillo, el contraste, o la
-                        transparencia de la imagen.
+                        la imagen ráster dentro del proyecto . Verifica que la
+                        imagen se muestre correctamente en el visor de mapas de
+                        Ellipsis Drive, comprobando que esté georreferenciada y
+                        proyectada de manera adecuada. Si es necesario, ajusta
+                        la visualización utilizando las herramientas que
+                        Ellipsis Drive proporciona para modificar parámetros
+                        como el brillo, el contraste, o la transparencia de la
+                        imagen.
                       </p>
                     </div>
                     <div className="col"></div>
@@ -234,7 +235,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse13"
               >
-                Imagen Ráster  - Paso 6: Publicar y Compartir
+                Imagen Ráster - Paso 6: Publicar y Compartir
               </button>
             </h2>
             <div
@@ -273,8 +274,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse14"
               >
-                Imagen Ráster  - Paso 7: Mantenimiento y
-                Actualización
+                Imagen Ráster - Paso 7: Mantenimiento y Actualización
               </button>
             </h2>
             <div
@@ -313,8 +313,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse15"
               >
-                Nube de Puntos  - Paso 1: Preparación de la
-                Nube de Puntos
+                Nube de Puntos - Paso 1: Preparación de la Nube de Puntos
               </button>
             </h2>
             <div
@@ -358,8 +357,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse16"
               >
-                Nube de Puntos  - Paso 2: Crear una Cuenta en
-                Ellipsis Drive
+                Nube de Puntos - Paso 2: Crear una Cuenta en Ellipsis Drive
               </button>
             </h2>
             <div
@@ -398,8 +396,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse17"
               >
-                Nube de Puntos  - Paso 3: Crear un Nuevo
-                Proyecto
+                Nube de Puntos - Paso 3: Crear un Nuevo Proyecto
               </button>
             </h2>
             <div
@@ -437,8 +434,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse18"
               >
-                Nube de Puntos  - Paso 4: Subir la Nube de
-                Puntos
+                Nube de Puntos - Paso 4: Subir la Nube de Puntos
               </button>
             </h2>
             <div
@@ -480,8 +476,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse19"
               >
-                Nube de Puntos  - Paso 5: Verificación de la
-                Nube de Puntos
+                Nube de Puntos - Paso 5: Verificación de la Nube de Puntos
               </button>
             </h2>
             <div
@@ -496,14 +491,14 @@ export const Flujo_web_ellipsis = () => {
                     <div className="col-8 text-justify">
                       <p>
                         Una vez completada la carga, navega hasta el archivo de
-                        la nube de puntos dentro del proyecto .
-                        Verifica que la nube de puntos se muestre correctamente
-                        en el visor 3D de Ellipsis Drive. Asegúrate de que los
-                        puntos estén en las ubicaciones correctas y de que no
-                        haya problemas de visualización. Utiliza las
-                        herramientas de Ellipsis Drive para explorar la nube de
-                        puntos, ajustar la visualización, y verificar que todos
-                        los datos se hayan cargado correctamente.
+                        la nube de puntos dentro del proyecto . Verifica que la
+                        nube de puntos se muestre correctamente en el visor 3D
+                        de Ellipsis Drive. Asegúrate de que los puntos estén en
+                        las ubicaciones correctas y de que no haya problemas de
+                        visualización. Utiliza las herramientas de Ellipsis
+                        Drive para explorar la nube de puntos, ajustar la
+                        visualización, y verificar que todos los datos se hayan
+                        cargado correctamente.
                       </p>
                     </div>
                     <div className="col"></div>
@@ -523,7 +518,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse20"
               >
-                Nube de Puntos  - Paso 6: Publicar y Compartir
+                Nube de Puntos - Paso 6: Publicar y Compartir
               </button>
             </h2>
             <div
@@ -562,8 +557,7 @@ export const Flujo_web_ellipsis = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapse21"
               >
-                Nube de Puntos  - Paso 7: Mantenimiento y
-                Actualización
+                Nube de Puntos - Paso 7: Mantenimiento y Actualización
               </button>
             </h2>
             <div

@@ -34,7 +34,7 @@ export const Flujo_cc = () => {
                   <div className="container text-justify">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-center">
+                      <div className="col-8 text-justify">
                         <p>
                           Abre CloudCompare y carga la nube de puntos en formato
                           `.las` o `.laz`. Ve a `Archivo > Abrir`, selecciona el
@@ -84,7 +84,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-center">
+                      <div className="col-8 text-justify">
                         <p>
                           Selecciona la nube de puntos y ve a `Plugins > CSF
                           Filter`. Configura los parámetros, selecciona `Relief`
@@ -133,7 +133,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-centered">
+                      <div className="col-8 text-justify">
                         <p>
                           Selecciona la nube de puntos `off-ground points` y
                           utiliza la herramienta de segmentación (`Segment
@@ -182,7 +182,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-centered">
+                      <div className="col-8 text-justify">
                         <p>
                           Selecciona la nube de puntos combinada y aplica un
                           submuestreo (`Edit > Subsample`) para reducir la
@@ -229,7 +229,7 @@ export const Flujo_cc = () => {
                   <div className="container text-center">
                     <div className="row">
                       <div className="col"></div>
-                      <div className="col-8 text-centered">
+                      <div className="col-8 text-justify">
                         <p>
                           Selecciona la nube de puntos en CloudCompare y ve a
                           `Edit > Mesh > Delaunay 2.5D (Best fitting plane)`
