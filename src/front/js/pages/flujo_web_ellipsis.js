@@ -6,7 +6,7 @@ export const Flujo_web_ellipsis = () => {
   const { store, actions } = useContext(Context);
 
   return (
-    <div className="text-center mt-5" style={{ height: "100vh" }}>
+    <div className="text-center mt-5" style={{ height: "100%" }}>
       <h1>ELLIPSIS</h1>
 
       <div className="container text-center">

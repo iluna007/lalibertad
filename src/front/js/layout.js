@@ -22,7 +22,6 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import "../styles/home.css";
 
-
 //create your first component
 const Layout = () => {
   //the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -33,32 +32,45 @@ const Layout = () => {
     return <BackendURL />;
 
   return (
-    <div>
+    <div id="root">
       <BrowserRouter basename={basename}>
         <ScrollToTop>
           <Navbar />
-          <Routes>
-            <Route element={<Home />} path="/" />
-            <Route element={<Demo />} path="/demo" />
-            <Route element={<Raster />} path="/raster" />
-            <Route element={<PointsCloud />} path="/pointscloud" />
-            <Route element={<Model />} path="/model" />
-            <Route element={<Flujo_cc />} path="/flujo_cc" />
-            <Route element={<Flujo_rr />} path="/flujo_rr" />
-            <Route element={<Flujo_imprimir3d />} path="/flujo_imprimir3d" />
-            <Route element={<Flujo_web_leaflet />} path="/flujo_web_leaflet" />
-            <Route
-              element={<Flujo_web_ellipsis />}
-              path="/flujo_web_ellipsis"
-            />
-            <Route element={<Flujo_web_speckle />} path="/flujo_web_speckle" />
-
-            <Route element={<Single />} path="/single/:theid" />
-            <Route element={<h1>Not found!</h1>} />
-          </Routes>
+          <main>
+            <Routes>
+              <Route element={<Home />} path="/" />
+              <Route element={<Demo />} path="/demo" />
+              <Route element={<Raster />} path="/raster" />
+              <Route element={<PointsCloud />} path="/pointscloud" />
+              <Route element={<Model />} path="/model" />
+              <Route element={<Flujo_cc />} path="/flujo_cc" />
+              <Route element={<Flujo_rr />} path="/flujo_rr" />
+              <Route element={<Flujo_imprimir3d />} path="/flujo_imprimir3d" />
+              <Route
+                element={<Flujo_web_leaflet />}
+                path="/flujo_web_leaflet"
+              />
+              <Route
+                element={<Flujo_web_ellipsis />}
+                path="/flujo_web_ellipsis"
+              />
+              <Route
+                element={<Flujo_web_speckle />}
+                path="/flujo_web_speckle"
+              />
+              <Route element={<Single />} path="/single/:theid" />
+              <Route element={<h1>Not found!</h1>} />
+            </Routes>
+          </main>
         </ScrollToTop>
+
       </BrowserRouter>
+      <Footer />
+
+
     </div>
+
+
   );
 };
 
